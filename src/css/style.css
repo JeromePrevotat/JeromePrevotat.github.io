@@ -16,6 +16,7 @@ body{
     background-color: lightgray;
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img-container{
@@ -44,6 +45,16 @@ h2{
     background-color: #03346E;
 }
 
+.skills{
+    padding: 5px;
+}
+
+.skill-lists{
+    border: solid black 2px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
 .content{
     display: flexbox;
     flex-direction: column;
@@ -57,21 +68,34 @@ h2{
 .project-content{
     display: inline-flex;
     align-items: center;
+    padding: 10px;
     background-color: #6EACDA;
 }
 
 .footer{
+    display: inline-flex;
     background-color: #03346E;
+    padding: 10px;
 }
 
 #footer-text{
     color: #E2E2B6;   
 }
 
-img{
+.portrait{
     margin: 5px;
     width: 150px;
     height:200px;
     border: solid black 3px;
     border-radius: 50%;
+}
+
+.hb-logo{
+    width: 300px;
+    height: 50px;
+}
+
+.github-logo{
+    width: 50px;
+    height: 50px;
 }
