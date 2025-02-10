@@ -47,3 +47,9 @@ const button_prev = document.getElementById("left-arrow");
 const button_next = document.getElementById("right-arrow");
 button_next.onclick = function(){displayed = next_project(displayed)};
 button_prev.onclick = function (){displayed = previous_project(displayed)};
+
+function init_page(){
+    update_project_info(displayed);
+}
+
+init_page();
