@@ -1,29 +1,27 @@
 h1{
-    color: cornflowerblue;
+    color: #E2E2B6;
     text-align: center;
+    padding: 10px;
 }
 
 #shortme{
+    color: #E2E2B6;
     font-style: italic;
     text-align: center;
+    padding: 10px;
 }
 
 body{
+    height: 100vh;
     background-color: lightgray;
+    display: flex;
+    flex-direction: column;
 }
 
 .img-container{
     display: flex;
     justify-content: center;
-}
-
-img{
-    width: 150px;
-}
-
-.content{
-    display: inline-flex;
-    align-items: center;
+    padding: 10px;
 }
 
 .project{
@@ -31,11 +29,49 @@ img{
 }
 
 h2{
-    color: cornflowerblue;
     justify-self: center;
 }
 
 .btn-arrow{
     width: 100px;
     height: 100px;
+    border-radius: 50%;
+    font-size: 32px;
+    background-color: lightgray;
+}
+
+.header{
+    background-color: #03346E;
+}
+
+.content{
+    display: flexbox;
+    flex-direction: column;
+    padding: 0%;
+}
+
+.aboutme{
+    background-color: #6EACDA;
+}
+
+.project-content{
+    display: inline-flex;
+    align-items: center;
+    background-color: #6EACDA;
+}
+
+.footer{
+    background-color: #03346E;
+}
+
+#footer-text{
+    color: #E2E2B6;   
+}
+
+img{
+    margin: 5px;
+    width: 150px;
+    height:200px;
+    border: solid black 3px;
+    border-radius: 50%;
 }
