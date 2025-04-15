@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("./img/fond-site.jpg");
+    background-image: url("./img/fond-site.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -36,8 +36,8 @@ section {
 }
 
 #background-section1{
-    background: url("./img/cigogne.png") no-repeat left / auto,
-    url("./img/fond-droite.png") no-repeat right / contain;
+    background: url("./img/cigogne.webp") no-repeat left / auto,
+    url("./img/fond-droite.webp") no-repeat right / contain;
 }
 
 .whitePage p{
@@ -59,7 +59,7 @@ h3 {
 }
 
 h1 {
-    background-image: url("./img/fond-titre.jpg");
+    background-image: url("./img/fond-titre.webp");
     text-align: center;
     align-content: center;
     height: 100px;
