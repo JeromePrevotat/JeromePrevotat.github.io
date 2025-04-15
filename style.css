@@ -1,0 +1,131 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("./img/fond-site.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    object-fit: contain;
+}
+
+header {
+    background-color: #FFFFFF55;
+    height: 50px;
+    align-content: center;
+}
+
+a {
+    padding: 10px;
+    background-color: #FFFFFFEE;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+section {
+    margin-top: 50px;
+}
+
+#mainLogo{
+    width:30%
+}
+
+#background-section1{
+    background: url("./img/cigogne.png") no-repeat left / auto,
+    url("./img/fond-droite.png") no-repeat right / contain;
+}
+
+.whitePage p{
+    padding-top: 10px;
+}
+
+h3 {
+    color: white;
+    background-color: #AA0000;
+    width: fit-content;
+    text-align: center;
+    /*center*/
+    margin: -20px auto;
+    /*to front*/
+    position: relative;
+    z-index: 1;
+    padding: 5px 10px;
+    font-size: large;
+}
+
+h1 {
+    background-image: url("./img/fond-titre.jpg");
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+h4 {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.textareaContainer {
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    height: 200px;
+    margin-top: 15px;
+}
+
+.imgPortrait {
+    object-fit: contain;
+}
+
+.finePrint {
+    font-size: small;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.btnContact {
+    border-radius: 0px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients {
+    padding: 20px 0px 70px 0px;
+}
+
+.whitePage {
+    padding: 15px;
+    background-color: white;
+    box-shadow: lightgrey 10px 10px 15px, lightgrey -10px -10px 15px;
+    transition: all 0.5s;
+}
+
+@media all and (max-width:700px) {
+    .whitePage {
+        background-color: rgba(255, 255, 255, 0.4);
+        transition: all 3s;
+    }    
+}
