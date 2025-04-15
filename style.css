@@ -3,9 +3,7 @@
 }
 
 body {
-    background-image: url("./img/fond-site.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("./img/fond-site.webp") no-repeat cover;
 }
 
 img {
